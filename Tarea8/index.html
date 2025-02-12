@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Edad en Star Wars</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Edad en Star Wars 🌌</h1>
+    <img src="téléchargement.jpg" alt="Star Wars" class="star-wars-image">
+    
+    <label for="userAge">Ingresa tu edad (en años terrestres):</label>
+    <input type="number" id="userAge" placeholder="Tu edad">
+    
+    <label for="species">Selecciona una especie:</label>
+    <select id="species">
+      <option value="80">Humano</option>
+      <option value="400">Wookiee</option>
+      <option value="900">Yoda's species</option>
+      <option value="85">Twi’lek</option>
+      <option value="60">Ewok</option>
+    </select>
+    
+    <button id="calculateButton">Calcular Edad Equivalente</button>
+    
+    <div id="output">
+      <p id="result"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
